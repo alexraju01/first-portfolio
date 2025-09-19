@@ -2,4 +2,68 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+html {
+	/* This is to convert the REM from 16px to 10px fore easier measurements  */
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #1d252a;
+}
+
+nav {
+	font-size: 2rem;
+	background-color: black;
+	padding-left: 2rem;
+	height: 7rem;
+	/* line-height: 7rem; */
+}
+
+nav span {
+	color: lightgreen;
+	font-weight: bold;
+	font-size: 2.5rem;
+	padding-right: 2rem;
+	letter-spacing: 0.1rem;
+	font-family: "Segoe UI", sans-serif;
+	display: inline-block;
+}
+
+nav ul {
+	display: inline-block;
+	height: 100%;
+	padding-left: 5rem;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 7rem;
+}
+
+#profile_img {
+	display: block;
+	max-width: 100%;
+	margin: 2rem auto 6rem auto;
+	height: auto;
+}
+
+nav ul li a:hover {
+	background-color: lightgreen;
+	color: black;
+	transition: 0.3s;
+}
+
+#about,
+#project,
+#contact {
+	margin: 5rem;
+	font-size: clamp(1.7rem, 2vw, 2.3rem);
+	line-height: 3rem;
+	font-family: "Segoe UI", sans-serif;
 }
