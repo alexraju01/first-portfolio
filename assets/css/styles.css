@@ -9,7 +9,6 @@
 }
 
 html {
-	/* This is to convert the REM from 16px to 10px fore easier measurements  */
 	font-size: 62.5%;
 }
 
@@ -27,6 +26,8 @@ header {
 	position: sticky;
 	top: 0;
 }
+
+
 nav {
 	font-size: 2rem;
 	background-color: black;
@@ -72,7 +73,7 @@ nav ul li a:hover {
 #about,
 #project,
 #contact {
-	margin: 5rem;
+	margin: 3rem;
 	font-size: clamp(1.7rem, 2vw, 2.3rem);
 	line-height: 3rem;
 	font-family: "Segoe UI", sans-serif;
@@ -84,15 +85,45 @@ nav ul li a:hover {
 
 #skills ul li {
 	display: inline-block;
-	width: 100px; /* tile width */
-	height: 100px; /* tile height */
-	margin: 8px;
+	width: 10rem;
+	height: 10rem;
+	margin: 0.8rem;
 	vertical-align: middle;
-	font-size: 16px; /* restore text size for any child text if needed */
+	font-size: 1.6rem;
 }
+
 #skills ul li img {
 	width: 100%;
 	height: 100%;
-	object-fit: contain; /* keeps logos intact, no cropping */
+	object-fit: contain;
 	display: block;
+}
+
+.project_card {
+	display: inline-block;
+	margin: 3rem 0;
+}
+
+.project_img {
+	width: 100%;
+	max-width: 80rem;
+	min-width: 25rem;
+	margin: 2rem auto 0 auto;
+	/* height: auto; */
+}
+
+.github-icon {
+	width: 2rem;
+}
+
+.github-btn {
+	display: inline-block;
+	background: #a8e6cf; /* light green */
+	color: #1b1b1b;
+	font-weight: 600;
+	padding: 1rem 1.6rem;
+	margin-top: 2rem;
+}
+.github-btn:hover {
+	background: #81d4af; /* slightly darker green */
 }
