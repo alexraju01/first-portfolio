@@ -78,6 +78,7 @@ nav ul li a:hover {
 	font-family: "Segoe UI", sans-serif;
 }
 
+/* Skill Set */
 #skills {
 	margin: 5rem 0;
 }
@@ -98,6 +99,7 @@ nav ul li a:hover {
 	display: block;
 }
 
+/* Project cards */
 .project_card {
 	display: inline-block;
 }
@@ -137,6 +139,7 @@ nav ul li a:hover {
 	background: #81d4af;
 }
 
+/* Contact Form */
 #contact {
 	padding: 2rem 1rem;
 }
