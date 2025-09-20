@@ -17,7 +17,6 @@ body {
 }
 
 .heading {
-	text-decoration: underline;
 	color: lightgreen;
 }
 
@@ -100,7 +99,6 @@ nav ul li a:hover {
 
 .project_card {
 	display: inline-block;
-	margin: 3rem 5rem;
 }
 
 .project_img {
@@ -112,11 +110,11 @@ nav ul li a:hover {
 
 .description {
 	margin: 2rem 0;
-	font-size: clamp(1.2rem, 2vw, 1.8rem);
+	font-size: clamp(1.5rem, 2vw, 1.8rem);
 }
 
 .tech_stack {
-	font-size: clamp(1.2rem, 2vw, 1.6rem);
+	font-size: clamp(1.5rem, 2vw, 1.6rem);
 	color: lightgreen;
 	margin-top: 1rem;
 }
@@ -127,12 +125,44 @@ nav ul li a:hover {
 
 .github-btn {
 	display: inline-block;
-	background: #a8e6cf; /* light green */
+	background: #a8e6cf;
 	color: #1b1b1b;
 	font-weight: 600;
 	padding: 1rem 1.6rem;
 	margin-top: 2rem;
 }
+
 .github-btn:hover {
-	background: #81d4af; /* slightly darker green */
+	background: #81d4af;
+}
+
+#contact {
+	padding: 2rem 1rem;
+}
+
+#contact form {
+	background: #090909;
+	max-width: 700px;
+	width: 100%;
+	padding: 2rem 1rem;
+	margin: 2rem auto;
+}
+
+#contact input,
+#contact textarea {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	padding: 0.8rem;
+	margin-bottom: 1.2rem;
+	background-color: #c4e6d6;
+}
+
+#contact button {
+	display: block;
+	width: 100%;
+	padding: 0.9rem;
+	background: #1d252a;
+	font-weight: 600;
+	cursor: pointer;
 }
