@@ -27,7 +27,6 @@ header {
 	top: 0;
 }
 
-
 nav {
 	font-size: 2rem;
 	background-color: black;
@@ -101,7 +100,7 @@ nav ul li a:hover {
 
 .project_card {
 	display: inline-block;
-	margin: 3rem 0;
+	margin: 3rem 5rem;
 }
 
 .project_img {
@@ -109,7 +108,17 @@ nav ul li a:hover {
 	max-width: 80rem;
 	min-width: 25rem;
 	margin: 2rem auto 0 auto;
-	/* height: auto; */
+}
+
+.description {
+	margin: 2rem 0;
+	font-size: clamp(1.2rem, 2vw, 1.8rem);
+}
+
+.tech_stack {
+	font-size: clamp(1.2rem, 2vw, 1.6rem);
+	color: lightgreen;
+	margin-top: 1rem;
 }
 
 .github-icon {
