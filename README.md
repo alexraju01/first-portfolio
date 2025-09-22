@@ -7,6 +7,9 @@ The goal of this project is to put into practice and consolidate everything I ha
 - Styling pages with external CSS limited to the task mentioned in **rubrics.md**
 - Using Git and GitHub for version control
 
+When Building this project I have used miniumal level of css and focused on display mode: **block**, **Inline-block** to make it responsive and used flex and grid for the extra goal as a demonstration so there
+isn't any cool design but work of a minimalist.
+
 The project serves as a foundation for my coding journey and as a starting point for this course.
 
 ---
@@ -31,7 +34,7 @@ Project Preview: [https://alexraju01.github.io/first-portfolio/](https://alexraj
 │       │   ├── 🖼️ mapApplicationImg.jpeg
 │       │   ├── 🖼️ pokidocs.png
 │       │   └── 🖼️ todoTaskList.png
-│       │   
+│       │
 │       ├── 📁 tech_stack/
 │       │   ├── 🖼️ CSS3.png
 │       │   ├── 🖼️ HTML5.png
